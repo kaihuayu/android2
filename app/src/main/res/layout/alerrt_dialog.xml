@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="120dp"
+        android:layout_height="64dp"
+        android:text="这是一个EditText" />
+
+
+    <Button
+        android:id="@+id/button2"
+        style="@android:style/Widget.Button"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="更新" />
+    <Button
+        android:id="@+id/button3"
+        style="@android:style/Widget.Button"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="删除" />
+    <Button
+        android:id="@+id/button4"
+        style="@android:style/Widget.Button"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="添加" />
+</LinearLayout>
